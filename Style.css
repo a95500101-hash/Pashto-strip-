@@ -1,22 +1,43 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    padding-top: 60px;
-    background: #f5f5f5;
+    background: #f3f3f3;
+    margin: 0;
+    padding: 20px;
 }
 
 h1 {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 button {
-    padding: 15px 35px;
-    font-size: 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
     background: #0077ff;
+    border: none;
     color: white;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 button:hover {
