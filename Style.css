@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product-box {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.product-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-name {
+    margin: 10px 0;
+}
+
+#buyButton {
+    background: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
